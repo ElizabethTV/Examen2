@@ -1,0 +1,45 @@
+<!--Velázquez Tovar Luz Elizabeth
+Examen 2 Aplicación Librería (API Rest)
+Desarrollo de Aplicaciones Empresariales
+Ismael Pérez Mena
+13/noviembre/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Libros</title>
+</head>
+<body>
+  <h1>Librería Siglo XXI</h1>
+  <h3>Listado de libros</h3>
+  <br>
+
+  <!-- campo para buscar un libro por su título -->
+  <input type="text" id="bookTitle" placeholder="Buscar libro por título">
+  <br>
+  <br>
+
+  <!-- listado de libros-->
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Chapters</th>
+        <th>Pages</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="listadoLibros">
+      <!-- los datos de los libros se agregarán en esta seccion dinámicamente con el archivo js-->
+    </tbody>
+  </table>
+
+  <!-- link para nuestro archivo js-->
+  <script src="js/script.js"></script>
+  <!-- link para nuestro archivo css-->
+  <link rel="stylesheet" href="css/style.css">
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*Velázquez Tovar Luz Elizabeth
+Examen 2 Aplicación Librería (API Rest)
+Desarrollo de Aplicaciones Empresariales
+Ismael Pérez Mena
+13/noviembre/2023*/
+
+/* Código para darle estilo a nuestra vista de html*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+input {
+  width: 30%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #d41ead;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td{
+  width: 20%;
+  font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d41ead;
+}
+
+td{
+  width: 22%;
+  font-size: 1.2em;
+  padding: 1%;
+  background-color: #e6c2eb;
+}
